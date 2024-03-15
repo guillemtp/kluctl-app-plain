@@ -1,0 +1,6 @@
+args:
+  - name: app_example_param
+    default: "app_default_value_in_app"
+  - name: global_example_param
+    default: "global_default_value_in_app"
+
