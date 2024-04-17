@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: kluctl-cm-helm
+  name: kluctl-cm-plain
 data:
   app_example_param: "{{ args.app_example_param }}"
   global_example_param: "{{ args.global_example_param }}"
