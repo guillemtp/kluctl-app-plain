@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: test-cm
 data:
-  app_example_param: "{{ app_example_param }}"
-  global_example_param: "{{ global_example_param }}"
+  app_example_param: "{{ args.app_example_param }}"
+  global_example_param: "{{ args.global_example_param }}"
