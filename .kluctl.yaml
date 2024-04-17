@@ -4,3 +4,5 @@ args:
   - name: global_example_param
     default: "global_default_value_in_app"
 
+
+discriminator: app-plain
